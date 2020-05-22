@@ -23,7 +23,7 @@ public class GetRavenDB {
     }
 
     void findByDegree (IDocumentSession session) {
-        System.out.println("Podaj id policjanta");
+        System.out.println("Podaj stopień policjanta");
         Scanner scanner = new Scanner(System.in);
         String degree = scanner.nextLine();
 
